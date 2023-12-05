@@ -7,6 +7,29 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <p>This is my website.</p>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Resume</a></li>
+        </ul>
+    </nav>
+
+    <div class="banner">
+        <h1>dhruv prakash</h1>
+    </div>
+
+    <div class="content">
+        <div class="text-container">
+            <p>I am a student at the George Washington University in Washington, D.C. working towards a B.S. in International Affairs and Data Science. As a student, I constantly seek innovative methods to produce remarkable work that serves its purpose effectively.</p>
+        </div>
+        <p>check back later</p>
+        <div id="search-wrap-input">
+            <input type="search" id="search-word" value="" tabindex="1" name="q" placeholder="Type a song name" autocomplete="off" autofocus="">
+            <i class="fas fa-spinner fa-pulse loading-suggextions" style="display: inline;"></i>
+            <div id="form-suggestions" style="display: block;"></div>
+        </div>
+    </div>
+    <script src="fade.js"></script>
 </body>
 </html>
