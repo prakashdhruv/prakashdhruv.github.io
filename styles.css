@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #121212;
+    border-bottom: 2px solid #86a8e7;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #86a8e7;
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.theme-toggle {
+    font-size: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.intro {
+    max-width: 800px;
+    margin-bottom: 50px;
+}
+
+.greeting {
+    font-size: 18px;
+    color: #999;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.name {
+    font-size: 50px;
+    background: -webkit-linear-gradient(left, #7f7fd5, #86a8e7, #91eae4);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.bio {
+    font-size: 16px;
+    color: #d1d1d1;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start; 
+    width: 100%;
+}
+
+.logo-icon {
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.link-button-wrapper-linkedin {
+    padding: 3px; 
+    border-radius: 15px; 
+    background: linear-gradient(45deg, #0077B5, #00c6ff); 
+    display: inline-block;
+}
+
+.link-button-wrapper-github {
+    padding: 3px;
+    border-radius: 15px;
+    background: linear-gradient(45deg, #6e5494, #f0f0f0); 
+    display: inline-block;
+}
+
+.link-button {
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 12px; 
+    background-color: #0e0e0e; 
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: background 0.5s ease-in-out, color 0.3s ease-in-out;
+}
+
+
+.link-button-wrapper-linkedin:hover .link-button {
+    background: linear-gradient(45deg, #0077B5, #00c6ff);
+    color: #fff;
+}
+
+.link-button-wrapper-github:hover .link-button {
+    background: linear-gradient(45deg, #6e5494, #f0f0f0);
+    color: #fff;
+}
+
+
+
+
+.projects {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-card {
+    background-color: #1e1e1e;
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background: linear-gradient(45deg, #7f7fd5, #86a8e7);
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+}
+
+.project-button:hover {
+    background: linear-gradient(45deg, #6800a8, #7f7fd5);
+}
+
+.loading-note {
+    font-size: 0.9em;
+    color: #888;
+    margin-top: 5px;
+}
+
+.loading-note {
+    font-size: 0.5em;
+    color: #888;
+    margin-top: 5px;
+}
+
+.contact {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #1e1e1e; /* Background for the contact section */
+    border-radius: 15px; /* Rounded corners */
+}
+
+.contact h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    font-size: 16px;
+    color: #d1d1d1;
+    margin-bottom: 10px;
+}
+
+.email-link {
+    font-size: 18px;
+    color: #86a8e7; /* Link color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.email-link:hover {
+    color: #7f7fd5; /* Change color on hover */
+}
