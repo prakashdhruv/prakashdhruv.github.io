@@ -1,3 +1,3 @@
 ## Link to My Portfolio
 
-[View My Portfolio](prakashdhruv.github.io)
+[View My Portfolio](https://prakashdhruv.github.io/)
